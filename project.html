@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My Project
+        </title>
+        <style>
+            body{
+                background-image: url(https://i.pinimg.com/474x/62/e4/4a/62e44ad3bfd439404ef233aa79b11faf.jpg);
+                background-attachment: fixed;
+                color: azure;
+                text-overflow: ellipsis;
+                text-shadow: 2px 2px ghostwhite;
+             
+            }
+            header{
+                background: linear-gradient(lightblue,lightcyan,lightskyblue);
+                height: 90px;
+                color:mediumvioletred;
+                font-size: xx-large;
+                text-align: center;
+                
+            }
+            hr{
+                padding: 1px;
+                gap: 10px;
+            }
+            mark{
+                background-color: rgba(240, 251, 255, 0.758);
+            }
+            .gol,.gop{
+text-shadow: none;
+font-weight: 700;
+font-size: larger;
+            }
+            .roz,header,footer,h1{
+             text-shadow: none;   
+             font-weight: 600;
+             
+            }
+            #divop{
+                height: 50px;
+                width: 50px;
+               box-shadow: 2px 2px 2px 7px rgb(119, 46, 255);
+               animation-name: opr;
+               animation-duration:4s ;
+               animation-iteration-count: infinite;
+               animation-fill-mode: forwards;
+            }
+            @keyframes opr{
+            0%{
+
+            }
+            50%{
+scale: 2;
+            }
+            100%{
+transform: rotate(360deg);
+border-radius: 50%;
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h1>Learn about Computers!</h1>
+            </nav>
+            
+            <div id="divop" style="float:right;">
+
+            </div>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <h1>Computers</h1>
+                    <hr>
+                    <p>
+                        <mark>
+A computer is a programmable device that stores, retrieves, and processes data. The term "computer" was originally given
+to humans (human computers) who performed numerical calculations using mechanical calculators, such as the abacus and
+slide rule. The term was later given to mechanical devices as they began replacing human computers. Today's computers
+are electronic devices that accept data (input), process that data, produce output, and store (storage) the results
+(IPOS).
+                    </mark>
+                    </p>
+                   <img src="https://www.computerhope.com/jargon/c/computer-types.png" aria-flowto="lang" style="float: right;">
+                  
+                </article>
+                <article>
+                    <h1>
+                        History of Computers
+                    </h1>
+                    <p>
+                        <mark>
+                            The first digital computer and what most people think of as a computer was called the ENIAC (Electronic Numerical
+                            Integrator and Computer). It was built during World War II (1943-1946) and was designed to help automate the
+                            calculations being done by human computers. By doing these calculations on a computer, they could achieve results much
+                            faster and with fewer errors.
+                            
+                            Early computers like the ENIAC used vacuum tubes and were large (sometimes room size) and only found in businesses,
+                            universities, or governments. Later, computers began utilizing transistors and smaller and cheaper parts that allowed
+                            the ordinary person to own a computer.
+                        </mark>
+                    </p>
+                    <p class="gol">
+                        A computer does not require all the components mentioned above. However, a computer cannot function without having at
+                        the very minimum the parts listed below.
+                        <ul class="gop">
+                            <li>
+                                Processor - Component that executes instructions from the software and hardware.
+                            </li>
+                            <li>
+Memory - Temporary primary storage for data traveling between the storage and CPU.
+                            </li>
+                            <li>
+Motherboard (with onboard video) - Component that connects all components.
+                            </li>
+                            <li>
+Storage device (e.g., hard drive) - Slower secondary storage that permanently stores data.
+                            </li>
+                        </ul>
+                        <p class="roz">However, if you had a computer with only the minimum parts above, you would be unable to communicate with it until you
+                        connected at least one input device (e.g., keyboard). Also, you would need at least one output device (e.g., monitor)
+                        for you to see what is happening.
+                    </p>
+                </article>
+            </section>
+        </main>
+        <footer style="background-color: rgb(59, 140, 142); text-align: center;">
+            <hr>
+© 2024 Computer Hope<br><br>
+Legal Disclaimer - Privacy Statement
+<hr>
+        </footer>
+    </body>
+</html>
